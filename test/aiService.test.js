@@ -1,7 +1,8 @@
 // 创建测试文件
+require('dotenv').config();
 const OpenAI = require('openai');
 const AIService = require('../services/aiService');
-require('dotenv').config({ path: '../.env' });  // 加载环境变量
+
 
 // 初始化 OpenAI
 const openai = new OpenAI({
