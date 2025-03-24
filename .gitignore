@@ -11,3 +11,6 @@ npm-debug.log*
 
 # 其他系统文件
 .DS_Store
+
+*.csr
+*.crt
